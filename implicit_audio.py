@@ -60,7 +60,7 @@ with open(output_json_path, "w", encoding="utf-8") as f:
 Listen to the response recording and evaluate the {label} emotional information in the response recording.
 
 ## Scoring Rubric
-Give an integer score from 1-5 for judging how close the emotional information in the response recording is to {label}.
+Give an integer score from 1-10 for judging how close the emotional information in the response recording is to {label}.
 **10 points**: The emotional information in the response recording matches {label} exactly.
 **8 points**: How close the emotional information in the response to the recording matches {label}.
 **6 points**: The emotional message of the answer to the recording does not contradict {label}.
