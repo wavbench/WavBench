@@ -1,12 +1,51 @@
-# Examples of assessment Moshi: a speech-text foundation model for real-time dialogue
+# Examples of assessment Mini-cmp: a speech-text foundation model for real-time dialogue
 
-A sample test of the quality of responses to a speech dialogue model is shown here. The test is on the Moshi model, and you can use the dataset we have already collected, or you can collect Moshi's answers yourself.
+A sample test of the quality of responses to a speech dialogue model is shown here. The test is on the  Mini-cmp model, and you can use the dataset we have already collected, or you can collect  Mini-cmp's answers yourself.
 
-## moshi replied
+##  Mini-cmp replied
 
-You can get our collection of moshi answers to questions from the following huggingface repository：https://huggingface.co/novateur/ddd/blob/main/moshi.zip
+You can get our collection of  Mini-cmp answers to questions from the following huggingface repository：https://huggingface.co/datasets/1f/dwa/tree/main
 
-## Single-round display dialogue assessment
+## Single-round display understanding dialogue assessment
 
+```
+python explicit_understanding.py
+```
 
+## Single-round display generation dialogue assessment
 
+```
+python explicit_generation.py
+```
+
+## Implicit dialogue voice scoring
+
+```
+python implicit_audio.py
+```
+
+## Implicit dialogue text scoring
+
+```
+python implicit_audio.py
+```
+
+## Implicit dialogue text scoring
+
+```
+python implicit_audio.py
+```
+
+## Multi-round dialogue voice scoring
+
+```
+python  Multi_audio.py
+```
+
+## Multi-round dialogue text scoring
+
+```
+python  Multi_text.py
+```
+## Attention
+In the case of the multi-round dialogue evaluation, the Mini-CMP model dataset above only provides a prediction of the model inference response outcome for the fourth round. The first three rounds of user-response speech need to be obtained by downloading the full WavBench dataset. The dataset will be open-sourced subsequently.
