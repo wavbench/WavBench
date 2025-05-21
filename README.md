@@ -1,6 +1,6 @@
-# Examples of assessment Mini-cmp: a speech-text foundation model for real-time dialogue
+# How to Use WavBench? Examples of assessment MiniCPM
 
-A sample test of the quality of responses to a speech dialogue model is shown here. The test is on the  Mini-cmp model, and you can use the dataset we have already collected, or you can collect  Mini-cmp's answers yourself.
+A sample test of the quality of responses to a speech dialogue model is shown here. The test is on the  MiniCPM model, and you can use the dataset we have already collected, or you can collect  MiniCPM's answers yourself.
 
 ##  Mini-cmp replied
 
@@ -48,4 +48,4 @@ python  Multi_audio.py
 python  Multi_text.py
 ```
 ## Attention
-In the case of the multi-round dialogue evaluation, the Mini-CMP model dataset above only provides a prediction of the model inference response outcome for the fourth round. The first three rounds of user-response speech need to be obtained by downloading the full WavBench dataset. The dataset will be open-sourced subsequently.
+In the case of the multi-round dialogue evaluation, the MiniCPM model dataset above only provides a prediction of the model inference response outcome for the fourth round. The first three rounds of user-response speech need to be obtained by downloading the full WavBench dataset. The dataset will be open-sourced subsequently.
