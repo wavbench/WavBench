@@ -1,4 +1,4 @@
-# How to Use WavBench? Examples of assessment MiniCPM
+# How to Use WavBench? Examples of assessment MiniCPM, Tmp Code for Review, All Code will open source soon.
 
 A sample test of the quality of responses to a speech dialogue model is shown here. The test is on the  MiniCPM model, and you can use the dataset we have already collected, or you can collect  MiniCPM's answers yourself.
 
